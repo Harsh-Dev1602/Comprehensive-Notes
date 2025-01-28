@@ -1,0 +1,53 @@
+main{
+  padding: 20px 0px;
+}
+ 
+main h1{
+  background-color: #cccccc23;
+  padding: 10px 15px;
+  display: inline;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+main h1 a{
+   text-decoration: none;
+   color: black;
+}
+
+.box{
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.sem{
+  padding: 15px 0px;
+  background-color: #cccccc23;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+
+.sem:active{
+  background-color: #0073e61e;
+ transition: all 0.1s;
+ 
+}
+@media only screen and (max-width: 950px) {
+  main h1 a{
+    font-size: 23px;
+    
+ }
+ main h1{ display: flex;}
+ .sem{  font-size: 18px;
+margin: 0px 15px;}
+}

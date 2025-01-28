@@ -1,0 +1,83 @@
+
+main {
+    padding: 20px;
+}
+
+main section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+main section h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+main section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Team Section */
+#team {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.team-member {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 22px;
+    color: #333;
+}
+
+.team-member p {
+    color: #555;
+}
+
+
+/* Responsive Design for Small Screens */
+@media screen and (max-width: 768px) {
+    #team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        flex-basis: 80%;
+        margin-bottom: 20px;
+    }
+}
