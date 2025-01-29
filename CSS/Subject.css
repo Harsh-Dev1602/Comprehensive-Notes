@@ -16,6 +16,15 @@ tr {
   width: 100%;
   height: 60px;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
+
+th a:hover{
+  color: #ff00002f;
+  transition: all 0.3s;
+}
 
 th,
 td {
