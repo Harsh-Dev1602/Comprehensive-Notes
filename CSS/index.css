@@ -5,7 +5,7 @@
 }
 .home {
   width: 95%;
-  margin: 10px 2.5%;
+  margin: 10px auto;
   height: auto;
   font-family: emoji;
 }

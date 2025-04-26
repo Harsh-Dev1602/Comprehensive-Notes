@@ -7,6 +7,13 @@
   padding: 50px 0px;
 }
 
+#Logo{
+  width: 50px;
+  border:  solid 2px black;
+  border-radius: 50%;
+  padding: 5px;
+}
+
 .box  form {
   width: 380px;
   height: auto;
@@ -98,6 +105,7 @@
 #signUp {
   display: none;
 }
+
 
 @media only screen and (max-width: 500px) {
 
