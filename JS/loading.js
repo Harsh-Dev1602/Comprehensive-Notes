@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
   let loading = document.querySelector("#loading");
-  let home = document.querySelector(".home")[0];
+  let home = document.querySelector(".home");
 
   setTimeout(() => {
     loading.style.display = "none";
