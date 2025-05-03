@@ -3,6 +3,7 @@
   padding: 0;
   font-family: revert-layer;
 }
+
 .home {
   width: 95%;
   margin: 10px auto;
@@ -30,6 +31,7 @@ main {
   padding: 20px 0px;
   z-index: 700;
 }
+
 .NavBar h1 {
   font-size: 40px;
   color: black;
@@ -54,6 +56,7 @@ main {
   border-color: black;
   transition: all 0.3s;
 }
+
 .NavBar ul li a,
 .menuBar ul li a {
   text-decoration: none;
@@ -82,9 +85,17 @@ main {
   z-index: 500;
   display: none;
 }
-.menuBar ul{ flex-direction: column; 
-  gap: 20px; padding: 50px 0px;}
-  .menuBar ul li a{ font-size: 25px;}
+
+.menuBar ul {
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0px;
+}
+
+.menuBar ul li a {
+  font-size: 25px;
+}
+
 .ProName {
   font-size: 30px;
   /* font-family: cursive; */
@@ -93,11 +104,13 @@ main {
   border-radius: 5px;
   text-align: center;
 }
-#profileContainer{
+
+#profileContainer {
   padding: 2px;
   border: solid transparent 2px;
 }
-#profileContainer:active{
+
+#profileContainer:active {
   padding: 2px;
   border-color: black;
   border-radius: 10px;
@@ -109,6 +122,7 @@ main {
   padding: 5px;
   cursor: pointer;
 }
+
 #profileDropdown {
   flex-direction: column;
   justify-content: center;
@@ -121,28 +135,39 @@ main {
   position: absolute;
   top: 100px;
   right: 0px;
-  
   display: none;
 }
 
-#logOutButton,#logOutButton2{
-  border-radius: 5px;
+#logOutButton,
+#logOutButton2 {
+  border-radius: 4px;
   font-size: 20px;
   color: white;
   background-color: rgba(255, 0, 0, 0.853);
-  font-weight: 800;
-  padding: 5px 30px;
+  font-weight: 400;
+  padding: 5px 15px;
   cursor: pointer;
   border-color: transparent;
 }
-#logOutButton:active,#logOutButton2:active{
+
+#logOutButton:active,
+#logOutButton2:active {
   background-color: rgba(255, 31, 31, 0.293);
 }
 
 .menuButton1,
 .menuButton2 {
   display: none;
+  padding: 4px;
+  border: solid transparent 2px;
   cursor: pointer;
+}
+
+.menuButton1:active,
+.menuButton2:active {
+  padding: 4px;
+  border-color: black;
+  border-radius: 8px;
 }
 
 .bgImg {
@@ -167,12 +192,13 @@ main {
   border-radius: 20px;
   padding: 20px 30px;
 }
+
 .bgText h1 {
   font-size: 4vw;
   text-align: center;
 }
 
-.cardBox{
+.cardBox {
   width: 100%;
   height: auto;
   margin: 20px 0px;
@@ -182,7 +208,7 @@ main {
   gap: 5rem;
 }
 
-.card{
+.card {
   width: 200px;
   height: 150px;
   /* background-color: #067e6215; */
@@ -197,13 +223,14 @@ main {
   border: transparent 5px solid;
   margin: 0px auto;
 }
+
 .card h1 {
   font-size: 25px;
-  text-align: center; 
+  text-align: center;
 }
 
 
-.card a{
+.card a {
   width: 60%;
   font-weight: 600;
   background-color: #001ea532;
@@ -235,15 +262,18 @@ footer {
   border-radius: 10px;
   padding: 50px 0px;
 }
+
 footer h1 {
   font-size: 1.5vw;
 }
+
 footer div {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
+
 footer div i {
   font-size: 1.5vw;
 }
@@ -252,22 +282,29 @@ footer div i {
   .NavBar h1 {
     font-size: 20px;
   }
+
   .NavBar ul {
     display: none;
   }
+
   .menuButton1 {
     display: block;
     font-size: 15px;
   }
-  #profileName{ font-size: 25px;}
- 
+
+  #profileName {
+    font-size: 25px;
+  }
+
   footer {
     flex-direction: column;
     gap: 20px;
   }
+
   footer div {
     order: 1;
   }
+
   footer h1 {
     order: 2;
   }
@@ -277,4 +314,3 @@ footer div i {
     font-size: 5vw;
   }
 }
-
