@@ -75,6 +75,7 @@ main {
   border-radius: 10px;
   top: 100px;
   left: 0px;
+  right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;

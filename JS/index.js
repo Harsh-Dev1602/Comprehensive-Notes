@@ -6,7 +6,7 @@ menuShow.addEventListener("click", () => {
   menuBar.style.display = "flex";
   menuHide.style.display = "block";
   menuShow.style.display = "none";
-  menuBar.classList ="menuBar animate__animated animate__bounceInRight ";
+  menuBar.classList ="menuBar animate__animated animate__bounceInLeft ";
 
 });
 
