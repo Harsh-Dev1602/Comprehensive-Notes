@@ -72,6 +72,7 @@ button:hover {
 }
 
 .team-member h3 {
+    margin-top: 20px;
     font-size: 22px;
     color: black;
 
@@ -80,6 +81,7 @@ button:hover {
 .team-member p {
     color: rgb(87, 87, 87);
     font-size: 15px;
+    text-align: center;
 }
 
 
