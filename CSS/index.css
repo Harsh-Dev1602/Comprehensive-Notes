@@ -68,24 +68,24 @@ main {
 }
 
 .menuBar {
-  width: 70%;
+  width: 100%;
   height: 100vh;
   margin: 0px 2.5%;
   position: fixed;
-  background-color: white;
-  box-shadow: 1px 1px 0.5px 1px #ccc;
-  border-radius: 10px;
+  background-color: transparent; 
   top: 0px;
   left: 0px;
   right: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   z-index: 1000;
   display: none;
 }
 
 .menuBar ul {
+  width: 70%;
+  height: 100vh;
+  box-shadow: 1px 1px 0.5px 1px #ccc;
+   border-radius: 10px;
+  background-color: white;
   flex-direction: column;
   gap: 20px;
   padding: 50px 0px;
@@ -274,7 +274,7 @@ footer div {
   gap: 20px;
    box-shadow: 1px 1px 0.5px 1px #ccccccb6;
    padding: 10px 20px;
-   border-radius: 10px;
+   border-radius: 20px;
   
 }
 

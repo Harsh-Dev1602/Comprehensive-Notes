@@ -24,10 +24,13 @@ main section p {
 }
 main section ul {
     margin-top: 20px;
-    padding-left: 50px;
+    padding-left: 20px;
     font-size: 20px;
     line-height: 1.6;
     text-align: justify;
+}
+main section li{
+    padding-left: 10px;
 }
 
 
@@ -52,10 +55,12 @@ button:hover {
 }
 .t-all {
     margin-top: 30px;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     gap: 20px;
     margin-bottom: 30px;
+    display: grid;
+     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .team-member {
@@ -85,23 +90,32 @@ button:hover {
 }
 
 .team-member p {
+    margin-top: 2px;
     color: rgb(87, 87, 87);
     font-size: 15px;
 }
 
+@media screen and (max-width: 400px) {
+    .t-all {
+         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+}
 
 /* Responsive Design for Small Screens */
 @media screen and (max-width: 950px) {
     main section{
         padding: 0px;
     }
-    .t-all {
-        flex-direction: column;
-        align-items: center;
-    }
 
     .team-member {
         flex-basis: 80%;
         margin-bottom: 20px;
     }
+}
+@media screen and (min-width: 1024px) {
+    .t-all {
+         grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
 }

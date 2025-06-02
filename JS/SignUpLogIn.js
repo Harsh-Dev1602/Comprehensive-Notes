@@ -7,6 +7,7 @@ sUBtn.addEventListener("click", () => {
   sU.style.display = "flex";
   lI.style.display = "none";
   sUF.reset();
+
 });
 
 let lIBtn = document.querySelector("#logInButton");
@@ -18,6 +19,7 @@ lIBtn.addEventListener("click", () => {
   sU.style.display = "none";
   lI.style.display = "flex";
   lIF.reset();
+
 });
 
 

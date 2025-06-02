@@ -4,18 +4,16 @@ let sUF = document.getElementById("signUpF");
 sUF.onsubmit = () => {
     let uName = btoa(document.getElementById("fullname").value);
     let uEmail = btoa(document.getElementById("email").value);
-    let uNum = btoa(document.getElementById("num").value);
     let uPass = btoa(document.getElementById("pass").value);
 
     var userData = {
         name: uName,
-        number: uNum,
         email: uEmail,
         password: uPass
     }
 
 
-    if (uName != "" && uNum != "" && uEmail != "" && uPass != "") {
+    if (uName != "" && uEmail != "" && uPass != "") {
         
         var userTextData = JSON.stringify(userData);
         // alert(userTextData);
